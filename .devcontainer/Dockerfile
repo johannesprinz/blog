@@ -19,6 +19,10 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
     tar xf ${VERSION}.tar.gz && \
     mv hugo /usr/bin/hugo
 
+# Install Azure CLI as per instructions below
+# https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
+RUN curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
 # Hugo dev server port
 EXPOSE 1313
 
