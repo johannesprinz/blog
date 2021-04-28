@@ -2,7 +2,8 @@
 
 To figure out how to create a static site using hugo and deploy to azure blob storage using github actions. Goal is to have a profile / blog site that uses mark down and can easily publish to a no-low cost hosting solution.
 
-I've been meaning todo this for a long time and I have had enough syncronisties telling me to get on with it and just do. 
+I've been meaning todo this for a long time and I have ls
+had enough syncronisties telling me to get on with it and just do. 
 
 - TODO Try to add refs that pushed me to this.
 

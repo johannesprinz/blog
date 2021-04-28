@@ -18,7 +18,9 @@ Going to have a look at what kind of markdown Hugo supports.
 
 ### Can we do table of contents?
 
-[[_TOC_]] does not work
+[[_TOC_]]
+
+does not work?
 
 Or even some basic [links](https://google.com).
 
