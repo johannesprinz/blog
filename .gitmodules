@@ -1,9 +1,6 @@
-[submodule "quickstart/themes/ananke"]
-	path = quickstart/themes/ananke
-	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
-[submodule "quickstart/themes/dimension"]
-	path = quickstart/themes/dimension
-	url = https://github.com/your-identity/hugo-theme-dimension.git
 [submodule "quickstart/themes/m10c"]
 	path = quickstart/themes/m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "quickstart/public"]
+	path = quickstart/public
+	url = git@github.com:johannesprinz/johannesprinz.com.git
