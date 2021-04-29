@@ -1,7 +1,9 @@
 ---
-title: "Lets get this huga business started"
+title: "Lets get this hugo business started"
 date: 2021-04-19T19:22:05Z
 draft: false
+tag: ["First", "Blogging", "Blogumentation"]
+category: ["Test"]
 ---
 
 ## Why am I here?

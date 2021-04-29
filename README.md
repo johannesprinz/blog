@@ -34,3 +34,17 @@ echo theme = \"ananke\" >> config.toml
 hugo new posts/my-first-post.md
 hugo server -D
 ```
+
+## Struggles
+
+- Learning Hugo
+- Learning how to work with git submodules
+- Deployment
+  - Azure blob storage
+  - Azure static sites
+  - GitHub pages
+    - Wont play nice with base urls containing sub paths https://example.com
+    > Start building sites … 
+Total in 126 ms
+Error: Error building site: TOCSS: failed to transform "css/main.scss" (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS.
+  - make sure the publishing page is your base uri eg  johannesprinz.github.io

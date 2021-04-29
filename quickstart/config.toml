@@ -1,4 +1,4 @@
-baseURL = "https://johannesprinz.com/"
+baseURL = "https://johannesprinz.github.io"
 languageCode = "en-us"
 title = "Johannes Prinz"
 
@@ -8,7 +8,11 @@ theme = "m10c"
   description = "In persuit of Truth | Health | Wealth"
   # avatar = "https://en.gravatar.com/userimage/67495667/ced769184eb23a69f0e989da03afd923.jpg?size=200"
   avatar = "https://avatars.githubusercontent.com/u/1687127"
-  menu_item_separator = " - "
+  menu_item_separator = " | "
+  [[params.social]]
+    icon = "linkedin"
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/johannesprinz"
   [[params.social]]
     icon = "github"
     name = "Github"
@@ -17,3 +21,17 @@ theme = "m10c"
     icon = "twitter"
     name = "Twitter"
     url = "https://twitter.com/pr1nzj"
+
+  [menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "https://johannesprinz.com"
+    weight = -110
+  [[menu.main]]
+    name = "Getting Started"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
