@@ -1,3 +1,6 @@
 [submodule "quickstart/themes/m10c"]
 	path = quickstart/themes/m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
+[submodule "quickstart/quickstart/public"]
+	path = quickstart/quickstart/public
+	url = git@github.com:johannesprinz/johannesprinz.github.io.git
