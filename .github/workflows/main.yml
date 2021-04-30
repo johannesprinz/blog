@@ -36,5 +36,5 @@ jobs:
           echo test, and deploy your project.
       
       # Spell check all the work
-      - name: GitHub Spellcheck
-        uses: igsekor/pyspelling-any@v1.0.4
+      #- name: GitHub Spellcheck
+      #  uses: igsekor/pyspelling-any@v1.0.4
