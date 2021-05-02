@@ -1,6 +1,0 @@
-GitHub
-README
-yaml
-https
-toolchain
-yml
