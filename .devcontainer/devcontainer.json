@@ -28,7 +28,9 @@
 		"bungcip.better-toml",
 		"davidanson.vscode-markdownlint",
 		"streetsidesoftware.code-spell-checker",
-		"yzhang.markdown-all-in-one"
+		"yzhang.markdown-all-in-one",
+		"shd101wyy.markdown-preview-enhanced",
+		"kaellarkin.hugo-shortcode-syntax"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
