@@ -1,6 +1,22 @@
-# Spike 
+# My personal blog
 
-To figure out how to create a static site using hugo and deploy to azure blob storage using github actions. Goal is to have a profile / blog site that uses mark down and can easily publish to a no-low cost hosting solution.
+## Hosting
+
+Plan is to host at johannesprinz.com. Options at this stage are via:
+
+- [Github pages](https://docs.github.com/en/pages)
+  - For this to work I needed to name my repo by the same name as the github page url linked to my account. At least for deploying a Hugo site. Followed this video [Creating a Blog with Hugo and Github in 10 minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4) to get this to work.
+- [Azure static page](https://docs.microsoft.com/en-nz/azure/static-web-apps/)
+  Following the Hugo example I could not get the build step to work. So I've decided to skip the build and control the publishing step via a seperat repo.
+
+Having looked at the following blog options:
+
+- [Ghost](https://ghost.org/)
+- [Wordpress](https://wordpress.com/)
+- [Hugo](https://gohugo.io/)
+
+I have settled with [Hugo](https://gohugo.io/), as I am a fan of markodwn for authoring.
+
 
 I've been meaning todo this for a long time and I have ls
 had enough syncronisties telling me to get on with it and just do. 
