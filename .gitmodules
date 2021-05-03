@@ -1,6 +1,3 @@
-[submodule ".\\src\\themes\\m10c"]
-	path = .\\src\\themes\\m10c
+[submodule "src/themes/m10c"]
+	path = src/themes/m10c
 	url = https://github.com/vaga/hugo-theme-m10c.git
-[submodule ".\\src\\public"]
-	path = .\\src\\public
-	url = git@github.com:johannesprinz/johannesprinz.github.io.git
