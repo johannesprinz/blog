@@ -2,6 +2,7 @@
 title: "Podcasts"
 date: 2021-05-02T23:43:40Z
 draft: false
+menu: "main"
 ---
 
 ## My current podcast list

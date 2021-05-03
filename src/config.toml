@@ -25,16 +25,16 @@ theme = "m10c"
     icon = "youtube"
     name = "YouTube"
     url = "https://youtube.com/playlist?list=PLbB0DkO_4qsTM3LAO-1d7lkvY2PtRyEpQ"
-  [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "https://johannesprinz.com"
-    weight = -110
-  [[menu.main]]
-    name = "Getting Started"
-    post = "<span class='alert'>New!</span>"
-    pre = "<i class='fa fa-road'></i>"
-    url = "/getting-started/"
-    weight = -100
+  # [menu]
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   pre = "<i class='fa fa-heart'></i>"
+  #   url = "https://johannesprinz.com"
+  #   weight = -110
+  # [[menu.main]]
+  #   name = "Getting Started"
+  #   post = "<span class='alert'>New!</span>"
+  #   pre = "<i class='fa fa-road'></i>"
+  #   url = "/getting-started/"
+  #   weight = -100

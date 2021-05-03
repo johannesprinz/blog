@@ -2,6 +2,8 @@
 title: "Writing My First Blog"
 date: 2021-05-02T09:28:33Z
 draft: true
+tag: ["AzureStaticSite", "Hugo", "Blogging", "Blogumentation"]
+category: ["How to"]
 ---
 
 ## Why
@@ -39,6 +41,6 @@ It needs to be public www.johannesprinz.com to force a certain level of quality 
 - [git submodules](todo)
 - [GitHub Pages](todo) When using Github pages with Hugo you need to match the repo name with the github pages url for them to work nicely together.
 - [GitHub Actions](todo)
-- [Azure static website service](todo) When using with Hugo you need to ensure the Hugo instance is in the root of your repo for the build action to work. In this case I chose not to build, just publish since I do this manually to control the publishing workflow. This is a reminance of playing with GitHub pages spike.
+- [Azure static website service](todo) When using with Hugo you need to ensure the Hugo instance is in the root of your repo for the build action to work. In this case I chose not to build, just publish since I do this manually to control the publishing workflow. This is a remanence of playing with GitHub pages spike.
 
 [^Podcasts]: [Podcasts](/posts/podcasts)
