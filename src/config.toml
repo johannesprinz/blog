@@ -21,7 +21,10 @@ theme = "m10c"
     icon = "twitter"
     name = "Twitter"
     url = "https://twitter.com/pr1nzj"
-
+  [[params.social]]
+    icon = "youtube"
+    name = "YouTube"
+    url = "https://youtube.com/playlist?list=PLbB0DkO_4qsTM3LAO-1d7lkvY2PtRyEpQ"
   [menu]
   [[menu.main]]
     identifier = "about"
