@@ -2,8 +2,9 @@
 title: "Writing My First Blog"
 date: 2021-05-02T09:28:33Z
 draft: true
-tag: ["AzureStaticSite", "Hugo", "Blogging", "Blogumentation"]
-category: ["How to"]
+tags: ["AzureStaticSite", "Hugo", "Blogging", "Blogumentation"]
+categories: ["How to"]
+menu: "main"
 ---
 
 ## Why
@@ -44,10 +45,21 @@ mkdir blog
 cd blog
 git init
 code .
-# Once VisualStudio Code launches
-# - open command pallet (ctrl + p)+(>)
-# - create development container (search for hugo)
 ```
+
+{{< highlight bash >}}
+mkdir blog
+cd blog
+git init
+code .
+{{< /highlight >}}
+
+Once VisualStudio Code launches
+ - open command pallet <kbd>CTRL</kbd> + <kbd>p</kbd> then <kbd>ctrl</kbd> <kbd>></kbd>
+ - create development container (search for hugo)
+
+{{< kbd CTRL >}} + {{< kbd ALT >}} + {{< kbd Delete >}}
+<kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd>
 
 From here you can follow the [Hugo quick start](https://gohugo.io/getting-started/quick-start/) guide post the install step.
 
@@ -80,7 +92,7 @@ From here you can follow the [Hugo quick start](https://gohugo.io/getting-starte
 - [GitHub Actions](todo)
 - [Azure static website service](todo) When using with Hugo you need to ensure the Hugo instance is in the root of your repo for the build action to work. In this case I chose not to build, just publish since I do this manually to control the publishing workflow. This is a remanence of playing with GitHub pages spike.
 
-[^Podcasts]: [Podcasts](/posts/podcasts)
+[^Podcasts]: [Podcasts](/podcasts)
 
 ## If I where to do it again
 
