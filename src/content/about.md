@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-German born and kiwi raised makes for german quality engineering with the Kiwi No.8 wire ingenuity.
+German born and kiwi raised makes for german quality engineering with the Kiwi No.8 wire ingenuity. Been in the game since 1981 seeking the truth, health and wealth via learning and reflection.
 
 {{< youtube V9rkAHkYvHY >}}
 
