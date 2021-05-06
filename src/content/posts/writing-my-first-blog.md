@@ -4,12 +4,11 @@ date: 2021-05-02T09:28:33Z
 draft: true
 tags: ["AzureStaticSite", "Hugo", "Blogging", "Blogumentation"]
 categories: ["How to"]
-menu: "main"
 ---
 
 ## Why
 
-I've been wanting to do this for such a long time. Recently I have had the synchronicity of multiple sources[^Podcasts] reminding me to "Just get started" and the importance for documenting your own path using blogs or journaling.
+I've been wanting to do this for such a long time. Recently I have had the synchronicity of multiple sources[^Podcasts] reminding me to "Just do it" and the importance for documenting your own path using blogs or journaling.
 
 ## What
 
@@ -47,19 +46,13 @@ git init
 code .
 ```
 
-{{< highlight bash >}}
-mkdir blog
-cd blog
-git init
-code .
-{{< /highlight >}}
-
 Once VisualStudio Code launches
- - open command pallet <kbd>CTRL</kbd> + <kbd>p</kbd> then <kbd>ctrl</kbd> <kbd>></kbd>
- - create development container (search for hugo)
 
-{{< kbd CTRL >}} + {{< kbd ALT >}} + {{< kbd Delete >}}
-<kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd>
+- Open Command Pallet
+  - {{< kbd CTRL >}} + {{< kbd p >}}
+  - Type in: `>remote-containers.createDevContainerFile `
+
+- Create development container (search for hugo)
 
 From here you can follow the [Hugo quick start](https://gohugo.io/getting-started/quick-start/) guide post the install step.
 

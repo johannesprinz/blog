@@ -8,16 +8,19 @@ paginate = 10
   [[menu.main]]
     identifier = "home"
     name = "Home"
+    pre = "<i class='fa fa-home'></i>"
     url = "/"
     weight = 1
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
+    pre = "<i class='fa fa-tag'></i>"
     url = "/tags/"
     weight = 2
   [[menu.main]]
     identifier = "about"
     name = "About"
+    pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
     weight = 3
 
@@ -25,7 +28,7 @@ paginate = 10
   author = "Johannes Prinz"
   description = "Seeker of Truth, Health and Wealth"
   avatar = "https://avatars.githubusercontent.com/u/1687127"
-  menu_item_separator = " | "
+  menu_item_separator = " | " # " </br> "
   [[params.social]]
     icon = "linkedin"
     name = "LinkedIn"
