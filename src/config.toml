@@ -1,4 +1,4 @@
-baseURL = "https://www.johannesprinz.com"
+baseURL = "/" # "https://www.johannesprinz.com/"
 languageCode = "en-us"
 title = "Johannes Prinz"
 theme = "m10c"
