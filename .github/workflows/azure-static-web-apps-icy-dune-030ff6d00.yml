@@ -30,8 +30,7 @@ jobs:
 
       - name: Build
         run: hugo
-        with:
-          extended: true
+        extended: true
       
       - name: Deploy
         id: builddeploy
