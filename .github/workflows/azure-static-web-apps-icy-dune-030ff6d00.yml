@@ -30,6 +30,7 @@ jobs:
 
       - name: Build
         run: hugo
+        with:
           extended: true
       
       - name: Deploy
