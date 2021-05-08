@@ -28,9 +28,9 @@ jobs:
           hugo-version: "latest"
           extended: true
 
-      - name: Build
-        run: hugo
-        extended: true
+      # - name: Build
+      #   run: hugo
+      #   extended: true
       
       - name: Deploy
         id: builddeploy
