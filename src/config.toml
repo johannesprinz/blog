@@ -1,14 +1,34 @@
-baseURL = "https://johannesprinz.github.io"
+baseURL = "/" # "https://www.johannesprinz.com/"
 languageCode = "en-us"
 title = "Johannes Prinz"
-
 theme = "m10c"
+paginate = 10
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-home'></i>"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    pre = "<i class='fa fa-tag'></i>"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = 3
+
 [params]
   author = "Johannes Prinz"
   description = "Seeker of Truth, Health and Wealth"
-  # avatar = "https://en.gravatar.com/userimage/67495667/ced769184eb23a69f0e989da03afd923.jpg?size=200"
   avatar = "https://avatars.githubusercontent.com/u/1687127"
-  menu_item_separator = " | "
+  menu_item_separator = " | " # " </br> "
   [[params.social]]
     icon = "linkedin"
     name = "LinkedIn"

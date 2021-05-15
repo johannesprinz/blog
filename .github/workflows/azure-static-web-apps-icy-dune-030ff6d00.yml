@@ -1,6 +1,8 @@
-name: Azure Static Web Apps CI/CD
+name: CD
 
+# Controls when the action will run. 
 on:
+  # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches:
       - main
@@ -9,6 +11,7 @@ on:
     branches:
       - main
 
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build_and_deploy_job:
     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
@@ -18,7 +21,17 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: true
-      - name: Build And Deploy
+
+      # - name: Setup Hugo
+      #   uses: peaceiris/actions-hugo@v2.4.8
+      #   with:
+      #     hugo-version: "latest"
+
+      # - name: Build
+      #   run: hugo
+      # # ACTIONS_ALLOW_UNSECURE_COMMANDS see: https://github.blog/changelog/2020-10-01-github-actions-deprecating-set-env-and-add-path-commands/?  
+      
+      - name: Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v0.0.1-preview
         with:
@@ -28,11 +41,11 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           # Build doesnt work, so have chosen to use the skip-build options https://docs.microsoft.com/en-nz/azure/static-web-apps/github-actions-workflow#skip-app-build
-          app_location: "/src/public" # App source code path
+          app_location: "/src" # App source code path
           # Can setup a azure function as an api for this
           #api_location: "api" # Api source code path - optional
-          output_location: "" # Built app content directory - optional - leave blank when using  skip_app_build: true
-          skip_app_build: true
+          output_location: "public" # Built app content directory - optional - leave blank when using  skip_app_build: true
+          # skip_app_build: true
           ###### End of Repository/Build Configurations ######
           
 

@@ -1,11 +1,10 @@
----
-title: "Podcasts"
-date: 2021-05-02T23:43:40Z
-draft: false
-menu: "main"
----
++++
+title = "Podcasts"
++++
 
 ## My current podcast list
+
+Updated date: 2021-05-02T23:43:40Z
 
 - [Best-Self Management](https://humansnotresources.libsyn.com/rss)
 - [Team Failsafe Podcast](https://teamfailsafe.libsyn.com/rss)
