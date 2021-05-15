@@ -2,14 +2,14 @@
 title = "About"
 +++
 
-German born and kiwi raised makes for german quality engineering with the Kiwi No.8 wire ingenuity. Been in the game since 1981 seeking the truth, health and wealth via learning and reflection.
+German born and kiwi raised makes for german precision and quality engineering with the [Kiwi No.8 wire ingenuity](https://en.wikipedia.org/wiki/Number_8_wire). Been in the game since [1981](https://en.wikipedia.org/wiki/1981) seeking the truth, health and wealth[^Balaji Srinivasan] by learning, experimentation and reflection.
 
-{{< youtube V9rkAHkYvHY >}}
+Having taken, what I consider, a very traditional career progression in technology, I am now squarely in the realm of people management. My biggest joy comes form learning and sharing what I learned.
 
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia lorem quis sodales auctor. Donec bibendum odio leo, bibendum iaculis lectus dapibus sit amet. Etiam ut euismod lectus, vel finibus metus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis vestibulum justo. Duis scelerisque ullamcorper sem, eget congue lorem ultrices mattis. Nam ut mollis tellus, id facilisis turpis. Duis ac egestas mi, a mattis dolor. Curabitur vestibulum est nec tortor hendrerit, vehicula malesuada quam tempor. Duis ornare tortor dapibus, scelerisque est lacinia, aliquet mi. Vivamus convallis malesuada augue ac viverra. Sed molestie erat at sem dapibus porttitor. Vestibulum lacinia, enim id feugiat varius, felis erat sollicitudin nisl, sit amet semper nisi nunc in nisl. Sed dapibus ullamcorper nulla, et molestie lacus accumsan ac.
+While I'm fairly new to sharing my knowledge I hope to use this blog as one of may ways I can improve in this area.
 
-Fusce auctor in justo nec porta. Aliquam vitae molestie libero. In scelerisque dolor ac est lacinia, at consectetur neque vulputate. Curabitur ornare lorem vitae euismod vestibulum. Sed non arcu nunc. Suspendisse potenti. Maecenas tristique, dui egestas mattis pulvinar, tortor ligula mollis libero, ac ullamcorper erat nibh in augue. Curabitur nunc diam, pretium at porta et, volutpat sit amet ligula. Proin urna lorem, luctus sit amet metus quis, tempus rutrum augue. Phasellus ut nunc dolor.
+Here is a podcast I was recently interviewed in. {{< youtube V9rkAHkYvHY >}}
 
-Duis a porta mi, non viverra erat. Nam tincidunt lorem nec sollicitudin laoreet. Mauris faucibus vitae urna ac aliquet. Vivamus rutrum rhoncus tempor. Donec massa diam, molestie sit amet nulla eu, venenatis egestas urna. Vivamus hendrerit elit velit, ut volutpat diam condimentum vel. Etiam ultricies, nulla tincidunt rhoncus placerat, velit nisl gravida velit, mollis vestibulum risus mauris sed lectus.
+You can [request access to my CV here](https://drive.google.com/file/d/1cqjoLJCleXYre2YjGKnDsPq-5TdNjEdQ/view?usp=sharing).
 
-[CV](TODO Link to CV)
+[^Balaji Srinivasan]: [Tim Ferris - Balaji Srinivasan](https://tim.blog/2021/03/25/balaji-srinivasan-transcript/)

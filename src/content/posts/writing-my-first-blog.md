@@ -13,7 +13,7 @@ categories:
 
 ## Why
 
-I've been wanting to do this for such a long time. Recently I have had the synchronicity of multiple sources[^Podcasts] reminding me to start blogging or journaling. I see the importance for documenting your own path for reflection, self improvement and the chance for others to learn.
+I've been wanting to do this for such a long time. Recently I had the synchronicity of multiple sources[^Podcasts] reminding me to start blogging or journaling. I see the importance for documenting your own path for reflection, self improvement and the chance for others to learn.
 
 ## What
 
@@ -37,11 +37,11 @@ There are so many to choose from. A quick google gave me the following to look a
   Written in [Ruby](https://www.ruby-lang.org/en/).
 - [Hugo](Hugo)
 
-I have settled with [Hugo](Hugo), as I am a fan of markdown for authoring and it had easy quick start guides in all areas I have either familiarity in or wish to learn more about.
+I have settled with [Hugo](Hugo), as I am a fan of markdown for authoring and it had easy quick-start guides in all areas I have either familiarity in or wish to learn more about.
 
 ### Setup authoring environment
 
-I work with a lot of frameworks and languages in my daily engineering workflow. Keep my main machine as clean as possible is very important to me. What I have found to keep the global scope of my machine clean and free of tooling and framework clutter is container based develop  ment. For this I use [Docker](https://www.docker.com/products/docker-desktop), [Visual Studio Code](https://code.visualstudio.com/) and the [Remote development container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). As it turns out [hugo has a development container](https://github.com/microsoft/vscode-dev-containers/tree/v0.158.0/containers/hugo).
+I work with a lot of frameworks and languages in my daily engineering workflow. Keep my main machine as clean as possible is very important to me. What I have found to keep the global scope of my machine clean and free of tooling and framework clutter is container based development. For this I use [Docker](https://www.docker.com/products/docker-desktop), [Visual Studio Code](https://code.visualstudio.com/) and the [Remote development container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). As it turns out [hugo has a development container](https://github.com/microsoft/vscode-dev-containers/tree/v0.158.0/containers/hugo).
 
 1. Follow the [Remote development in Containers](https://code.visualstudio.com/docs/remote/containers-tutorial tutorial to get setup.
 2. Setup your workspace and launch VS Code
@@ -65,8 +65,7 @@ I work with a lot of frameworks and languages in my daily engineering workflow. 
 
 Now that I can create content I need to enable publishing. I tried publishing to [Github pages](https://docs.github.com/en/pages). I followed this video [Creating a Blog with Hugo and Github in 10 minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4).
 
-> ⚠️ For this to work I needed to name my published repo by the same name as
-> the github page url "https://[UserName].github.io".
+> ⚠️ For this to work I needed to name my published repo by the same name as the github page url "https://[UserName].github.io".
 
 But then I found this [Tutorial to Publish a Hugo site to Azure Static Web Apps Preview](https://docs.microsoft.com/en-us/azure/static-web-apps/publish-hugo). This setup a static site publishing git hub actions workflow with preview environments within the Pull Request process. Playing with a few GitHub repository settings to secure my main branch I was all set.
 
@@ -75,8 +74,8 @@ But then I found this [Tutorial to Publish a Hugo site to Azure Static Web Apps 
 At this stage I though I'd nailed it. If someone asked me "When will the first post be published?", I would of replied "Tomorrow". Finding the topic for this one was easy. And here are all the challenges I stumbled across writing my first post.
 
 - Spell checking.
-  - Do this via a VS Code extension
-- Finding the right theme
+  - Do this via a [VS Code extension](https://github.com/streetsidesoftware/vscode-spell-checker)
+- Finding the [right theme](https://themes.gohugo.io/)
 - Learning Hugo [Hugo introduction](HugoIntro)
   - Syntax highlighting
     - Using Hugo short codes
@@ -85,21 +84,6 @@ At this stage I though I'd nailed it. If someone asked me "When will the first p
   - Styling and customising themes
 
 All this ended up taking another few weeks to resolve to a point where I felt it was good enough to publish.
-
-## Todo list
-
-- [x] Choose a blog engine
-- [x] Learn more about blog engine
-- [x] Find a theme that supports syntax highlighting
-- [x] Hosting
-  - [x] Explore hosting using Azure blob storage
-    Turns out Microsoft (MS) has simplified this into a static site
-    hosting service.
-  - [x] Explore hosting github pages
-  - [x] Explore hosting using Static site hosting
-  - [x] Configure DNS to point to hosted site
-    - [ ] Make this work on my top level domain
-- [x] Refine branching publishing workflow
 
 ## What I learned
 
