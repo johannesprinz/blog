@@ -1,5 +1,5 @@
 ---
-title: Writing My First Blog
+title: Writing my first blog
 date: 2021-05-02T09:28:33.000Z
 draft: false
 tags:
