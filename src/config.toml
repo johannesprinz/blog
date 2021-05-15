@@ -6,27 +6,33 @@ paginate = 10
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    pre = "<i class='fa fa-home'></i>"
+    identifier = "posts"
+    name = "Posts"
+    pre = "<i class='fa fa-blog'></i>"
     url = "/"
     weight = 1
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    pre = "<i class='fa fa-tag'></i>"
+    pre = "<i class='fa fa-tags'></i>"
     url = "/tags/"
     weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    pre = "<i class='fa fa-books'></i>"
+    url = "/categories/"
+    weight = 3
   [[menu.main]]
     identifier = "about"
     name = "About"
     pre = "<i class='fa fa-heart'></i>"
     url = "/about/"
-    weight = 3
+    weight = 4
 
 [params]
   author = "Johannes Prinz"
-  description = "Seeker of Truth, Health and Wealth"
+  description = "My thoughts unravelling"
   avatar = "https://avatars.githubusercontent.com/u/1687127"
   menu_item_separator = " | " # " </br> "
   [[params.social]]

@@ -1,5 +1,5 @@
 ---
-title: Writing My First Blog
+title: Writing my first blog
 date: 2021-05-02T09:28:33.000Z
 draft: false
 tags:
@@ -8,12 +8,12 @@ tags:
   - Blogging
   - Blogumentation
 categories:
-  - How to
+  - HowTo
 ---
 
 ## Why
 
-I've been wanting to do this for such a long time. Recently I had the synchronicity of multiple sources[^Podcasts] reminding me to start blogging or journaling. I see the importance for documenting your own path for reflection, self improvement and the chance for others to learn.
+I've been wanting to do this for such a long time. Recently I had the synchronicity of multiple sources[^Muse] reminding me to start blogging or journaling. I see the importance for documenting your own path for reflection, self improvement and the chance for others to learn.
 
 ## What
 
@@ -94,7 +94,7 @@ All this ended up taking another few weeks to resolve to a point where I felt it
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [Azure static website service](https://docs.microsoft.com/en-us/azure/static-web-apps/getting-started)
 
-[^Podcasts]: [Podcasts](/podcasts)
+[^Muse]: [Muse](/muse)
 
 [Hugo]: https://gohugo.io/
 [HugoIntro]: https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
