@@ -1,6 +1,6 @@
 ---
 title:  Software Engineering Quickstart Guide
-date: 2023-1027T09:28:33.000Z
+date: 2023-10-27T09:28:33.000Z
 draft: false
 tags:
   - Getting Started
