@@ -1,7 +1,7 @@
 ---
-title: "03 Software Engineering Quickstart Guide"
+title: "03 Software Engineering Quick Start Guide"
 date: 2023-11-22T23:56:09Z
-draft: true
+draft: false
 tags:
   - Getting Started
   - Software Engineering
@@ -9,7 +9,7 @@ categories:
   - HowTo
 ---
 
-## Software Engineering Quickstart Guide
+## Software Engineering Quick Start Guide
 
 Below you will find some resources that define my engineering ethos.
 These are categorised into the three main pillars of every change I make.
