@@ -1,5 +1,5 @@
 ---
-title: "03 Software Engineering Quick Start Guide"
+title: "Software Engineering Quick Start Guide"
 date: 2023-11-22T23:56:09Z
 draft: false
 tags:
