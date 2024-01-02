@@ -9,8 +9,6 @@ categories:
   - HowTo
 ---
 
-## Software Engineering Quick Start Guide
-
 Below you will find some resources that define my engineering ethos.
 These are categorised into the three main pillars of every change I make.
 
