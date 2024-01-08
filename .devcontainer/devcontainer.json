@@ -31,7 +31,8 @@
 		"yzhang.markdown-all-in-one",
 		"shd101wyy.markdown-preview-enhanced",
 		"kaellarkin.hugo-shortcode-syntax",
-		"eliostruyf.vscode-front-matter"
+		"eliostruyf.vscode-front-matter",
+		"znck.grammarly"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

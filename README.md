@@ -48,3 +48,12 @@ hugo server -D
 Total in 126 ms
 Error: Error building site: TOCSS: failed to transform "css/main.scss" (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS.
   - make sure the publishing page is your base uri eg  johannesprinz.github.io
+
+  ## FAQ
+
+  ### How to create a new blog post
+
+  ```bash
+   cd src/
+   hugo new posts/your-post-title.md
+  ```
