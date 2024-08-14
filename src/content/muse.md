@@ -43,3 +43,16 @@ Updated date: 2021-05-02T23:43:40Z
 - [Nick Chapsas](https://www.youtube.com/user/ElfocrashDev)
 - [Scott Hanselman](https://www.youtube.com/user/shanselman)
 - [Tim Ferriss](https://www.youtube.com/user/masterlock77)
+
+### Some of my hero's
+
+- [Kent Beck](https://www.kentbeck.com/)
+- [Uncle Bob (Robert C. Martin)](https://blog.cleancoder.com/)
+- [Kevlin Henney](https://www.youtube.com/c/KevlinHenney)
+- [Dave Farley](https://www.davefarley.net/)
+- [Viktor Farcic](https://www.devopstoolkitseries.com/)
+- [Martin Fowler](https://www.martinfowler.com/)
+- [Nick Chapsas](https://www.youtube.com/@nickchapsas)
+- [Simon Sinek](https://simonsinek.com/)
+- [ThePrimeagen (Michael B. Paulson)](https://github.com/ThePrimeagen)
+- [Dave Thomas](https://youtu.be/Nbdjzd22Z3A?si=K8nfPE3BWPshyuOR)

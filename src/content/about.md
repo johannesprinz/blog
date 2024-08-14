@@ -7,6 +7,7 @@ German born and kiwi raised makes for german precision and quality engineering w
 Having taken, what I consider, a very traditional career progression in technology, I am now squarely in the realm of people management. My biggest joy comes form learning and sharing what I learned.
 
 While I'm fairly new to sharing my knowledge I hope to use this blog as one of may ways I can improve in this area.
+Check out my [Muse](/muse) where I draw most of my inspirations and insights from.
 
 Here is a podcast I was recently interviewed in. {{< youtube V9rkAHkYvHY >}}
 
