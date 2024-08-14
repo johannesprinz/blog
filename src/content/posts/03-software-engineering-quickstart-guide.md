@@ -13,14 +13,14 @@ Below you will find some resources that define my engineering ethos.
 These are categorised into the three main pillars of every change I make.
 
  1. The Why ( Values, Documentation, Commit messages, Comments )
- 2. The What ( Principles, Documentation, Tests )v
+ 2. The What ( Principles, Documentation, Tests )
  3. The How ( Process, Architecture, Code, Tools )
 
 ### Why
 
 - Documentation
-  - [C4 Model](https://c4model.com/) 
-  - [Arc 42 templates](https://arc42.org/overview) 
+  - [C4 Model](https://c4model.com/)
+  - [Arc 42 templates](https://arc42.org/overview)
   - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
   - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
   - [Mermaid Markdown](https://mermaid.js.org/#/)
@@ -63,17 +63,17 @@ These are categorised into the three main pillars of every change I make.
     - [Refactoring Techniques](https://refactoring.guru/refactoring/techniques)
   - [The last programming language](https://www.youtube.com/watch?v=P2yr-3F6PQo)
 
-###  Must Watch Software Talks For Software Engineers
+### Must Watch Software Talks For Software Engineers
 
-- Christin Gorman “Gordon Ramsay Doesn’t Use Cake Mixes” ➡️ https://vimeo.com/28885655
-- Bryan Liles “Test all the f*^&ing time” ➡️ https://youtu.be/iwUR0kOVNs8
-- Gojko Adzic “Make Impacts, not Software” ➡️ https://youtu.be/GnK_n9Udhhs
-- Jeff Patton “User Story Mapping” ➡️ https://youtu.be/AzBuohuOU6g
-- Michael Nygard "Uncoupling" ➡️ https://youtu.be/mAw4ygX1c-4
-- Gregor Hohpe “Enterprise Architecture = Architecting the Enterprise?” ➡️ https://youtu.be/DdJNLeYldUs
-- Eric Evans "Tackling the complexity at the heart of software" ➡️ https://youtu.be/dnUFEg68ESM
-- Jim Webber, "The Present and Future of Native Graph Technology" ➡️ https://youtu.be/_CQehnb6A6o
-- Jez Humble, “CD sounds great, but can’t work here” ➡️ https://youtu.be/IvWr29afDF8
-- Anita Sengupta, “The future of Mars exploration" ➡️ https://youtu.be/iuzZYzns-Yg
-- Hanna Fry, “How to be human in the age of the machine” ➡️ https://youtu.be/Rzhpf1Ai7Z4  
+- Christin Gorman “Gordon Ramsay Doesn’t Use Cake Mixes” ➡️ <https://vimeo.com/28885655>
+- Bryan Liles “Test all the f*^&ing time” ➡️ <https://youtu.be/iwUR0kOVNs8>
+- Gojko Adzic “Make Impacts, not Software” ➡️ <https://youtu.be/GnK_n9Udhhs>
+- Jeff Patton “User Story Mapping” ➡️ <https://youtu.be/AzBuohuOU6g>
+- Michael Nygard "Uncoupling" ➡️ <https://youtu.be/mAw4ygX1c-4>
+- Gregor Hohpe “Enterprise Architecture = Architecting the Enterprise?” ➡️ <https://youtu.be/DdJNLeYldUs>
+- Eric Evans "Tackling the complexity at the heart of software" ➡️ <https://youtu.be/dnUFEg68ESM>
+- Jim Webber, "The Present and Future of Native Graph Technology" ➡️ <https://youtu.be/_CQehnb6A6o>
+- Jez Humble, “CD sounds great, but can’t work here” ➡️ <https://youtu.be/IvWr29afDF8>
+- Anita Sengupta, “The future of Mars exploration" ➡️ <https://youtu.be/iuzZYzns-Yg>
+- Hanna Fry, “How to be human in the age of the machine” ➡️ <https://youtu.be/Rzhpf1Ai7Z4>  
 - [Better Coding playlist](https://www.youtube.com/playlist?list=PLbB0DkO_4qsTM3LAO-1d7lkvY2PtRyEpQ)

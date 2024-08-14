@@ -21,7 +21,7 @@ I've been wanting to do this for such a long time. Recently I had the synchronic
 > I would like to **share my learnings** with my **future self**
 > So that I can **reflect** on my journey **and improve** my workflow for the next journey.
 
-It needs to be public www.johannesprinz.com to force a certain level of quality by social pressure.
+It needs to be public <www.johannesprinz.com> to force a certain level of quality by social pressure.
 
 ## How
 
@@ -43,7 +43,7 @@ I have settled with [Hugo](Hugo), as I am a fan of markdown for authoring and it
 
 I work with a lot of frameworks and languages in my daily engineering workflow. Keep my main machine as clean as possible is very important to me. What I have found to keep the global scope of my machine clean and free of tooling and framework clutter is container based development. For this I use [Docker](https://www.docker.com/products/docker-desktop), [Visual Studio Code](https://code.visualstudio.com/) and the [Remote development container extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). As it turns out [hugo has a development container](https://github.com/microsoft/vscode-dev-containers/tree/v0.158.0/containers/hugo).
 
-1. Follow the [Remote development in Containers](https://code.visualstudio.com/docs/remote/containers-tutorial tutorial to get setup.
+1. Follow the [Remote development in Containers](<https://code.visualstudio.com/docs/remote/containers-tutorial> tutorial to get setup.
 2. Setup your workspace and launch VS Code
 
    ```zsh
@@ -79,7 +79,7 @@ At this stage I though I'd nailed it. If someone asked me "When will the first p
 - Learning Hugo [Hugo introduction](HugoIntro)
   - Syntax highlighting
     - Using Hugo short codes
-  - Rendering of html tags like `<kbd></kbd>`
+  - Rendering of html tags like `<kbd>home</kbd>`
     - Using Hugo short codes
   - Styling and customising themes
 
@@ -96,5 +96,3 @@ All this ended up taking another few weeks to resolve to a point where I felt it
 
 [^Muse]: [Muse](/muse)
 
-[Hugo]: https://gohugo.io/
-[HugoIntro]: https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
