@@ -159,3 +159,4 @@ public
 # End of https://www.toptal.com/developers/gitignore/api/node,hugo
 
 megalinter-reports
+src/resources/_gen/assets/css
