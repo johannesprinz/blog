@@ -3,10 +3,17 @@
 ## Getting started
 
 You will need [Docker](#todo), [Visual Studio Code](https://code.visualstudio.com/) and use the [Remote development container extension](https://code.visualstudio.com/docs/remote/containers-tutorial). Once this has re-opened in the remote container you are setup and ready to go.
+After the initial clone sun the following to spin up the project:
+
+```bash
+git submodule update --init --recursive
+cd src
+hugo server -D
+```
 
 ## Hosting
 
-Blog is hosted at wwww.johannesprinz.com via [Azure static page](https://docs.microsoft.com/en-nz/azure/static-web-apps/). Following the Hugo example I could not get the build step to work. So I've decided to skip the build and control the publishing step via manual publishing `> hugo` and is also published to a separate repo https://github.com/johannesprinz/johannesprinz.github.io which publishes to [Github pages](https://docs.github.com/en/pages). For this to work I needed to name my published repo by the same name as the github page url linked to my account. At least for deploying a Hugo site. Followed this video [Creating a Blog with Hugo and Github in 10 minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4) to get this to work.
+Blog is hosted at www.johannesprinz.com via [Azure static page](https://docs.microsoft.com/en-nz/azure/static-web-apps/). Following the Hugo example I could not get the build step to work. So I've decided to skip the build and control the publishing step via manual publishing `> hugo` and is also published to a separate repo https://github.com/johannesprinz/johannesprinz.github.io which publishes to [Github pages](https://docs.github.com/en/pages). For this to work I needed to name my published repo by the same name as the github page url linked to my account. At least for deploying a Hugo site. Followed this video [Creating a Blog with Hugo and Github in 10 minutes](https://www.youtube.com/watch?v=LIFvgrRxdt4) to get this to work.
 
 ## Guides followed so far
 
