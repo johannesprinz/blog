@@ -157,4 +157,5 @@ public
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node,hugo
-src/public/avatar.jpg
+
+megalinter-reports
