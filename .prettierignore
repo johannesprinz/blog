@@ -1,0 +1,6 @@
+src/themes/**
+src/layouts/**
+
+# Need to ignore until I know the whitespace rules don't affect the yaml
+
+.github/**
