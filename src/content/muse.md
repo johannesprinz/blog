@@ -4,7 +4,8 @@ title = "Muse"
 
 ## My online inspirations
 
-A collection of links and lists of curated content I consume regularly. Feel free to see where my ideas and biasses come from.
+A collection of links and lists of curated content I consume regularly. Feel
+free to see where my ideas and biasses come from.
 
 ### My current podcast list
 
@@ -21,9 +22,9 @@ Updated date: 2021-05-02T23:43:40Z
 - [Radiolab](http://feeds.wnyc.org/radiolab)
 - [SimpleLeadership Podcast](https://simpleleadership.libsyn.com/rss)
 - [Software Engineering Radio - the podcast for professional software developers](https://seradio.libsyn.com/rss)
-- [techzing tech podcast](http://techzinglive.com/?feed&#61;podcast)
+- [techzing tech podcast](http://techzinglive.com/?feed=podcast)
 - [The Kevin Rose Show](https://rss.simplecast.com/podcasts/3408/rss)
-- [The Stack Overflow Podcast](https://stackoverflow.blog/podcasts/?feed&#61;podcast)
+- [The Stack Overflow Podcast](https://stackoverflow.blog/podcasts/?feed=podcast)
 - [The Tim Ferriss Show](https://rss.art19.com/tim-ferriss-show)
 - [This American Life](http://feed.thisamericanlife.org/talpodcast)
 - [Weekly Dev Tips](https://feeds.simplecast.com/W8bGHhCA)
