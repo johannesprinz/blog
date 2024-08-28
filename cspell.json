@@ -9,6 +9,13 @@
         "addWords": true
       }],
     "dictionaries": ["project-words"],
-    "ignorePaths": ["node_modules", "dict/**"]
+    "ignorePaths": [
+      "node_modules",
+      "src/layouts/**",
+      "src/public/**",
+      "src/resources/**",
+      "src/themes/**", 
+      "dict/**"]
+
   }
   
