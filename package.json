@@ -1,0 +1,26 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "My thoughts unravelling",
+  "devDependencies": {
+    "cspell": "^8.14.2",
+    "markdownlint-cli": "^0.41.0",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "\n========== Testing ==========": "",
+    "test": "npm audit || true && npm run audit-spell || true && npm run audit-markdown || true && npm run audit-format || true",
+    "test-spell": "npm run base-spell -- .",
+    "test-markdown": "markdownlint '**/*.md' --ignore node_modules",
+    "test-format": "prettier --check --prose-wrap always --print-width 80 --ignore-unknown . ",
+    "\n========== Check changed ==========": "",
+    "ci-spell": "git status --porcelain | awk '{print $2}' | grep -E '\\.(md|txt|js)$' | xargs npm run base-spell --",
+    "\n========== Auto fix ==========": "",
+    "fix-format": "prettier --write --prose-wrap always --print-width 80 --ignore-unknown .",
+    "fix-spell": "cspell --words-only --unique . | sort --ignore-case >> ./dict/project-words.txt",
+    "\n========== Abstract base tasks NOT TO BE USED STANDALONE ==========": "",
+    "base-spell": "cspell --no-progress --show-suggestions --show-context"
+  },
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE"
+}
