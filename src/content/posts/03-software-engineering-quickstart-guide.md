@@ -19,6 +19,11 @@ categorised into the three main pillars of every change I make.
 ### Why
 
 - Documentation
+  - [Diataxis](https://diataxis.fr/)
+    - [Tutorials](https://diataxis.fr/tutorials/) for learning.
+    - [How to guides](https://diataxis.fr/how-to-guides/) for reaching goals.
+    - [Explanations](https://diataxis.fr/explanation/) to aid understanding.
+    - [Reference](https://diataxis.fr/reference/) for detailed information.
   - [C4 Model](https://c4model.com/)
   - [Arc 42 templates](https://arc42.org/overview)
   - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
