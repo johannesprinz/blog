@@ -2,8 +2,8 @@
 
 ## Getting started
 
-You will need [Docker][docker], [Visual Studio Code][vscode] and use the
-[Remote development container extension][vscode-extension-devcontainer]. Once this has
+You will need [Docker][docker], [Visual Studio Code][vscode] and use the [Remote
+development container extension][vscode-extension-devcontainer]. Once this has
 re-opened in the remote container you are setup and ready to go. After the
 initial clone sun the following to spin up the project:
 
@@ -28,7 +28,8 @@ in 10 minutes][youtube-howto-hugo] to get this to work.
 ## Guides followed so far
 
 - [Hugo quick start][hugo]
-- [Set up a GitHub Actions workflow to deploy your static website in Azure Storage][azure-staticsite]
+- [Set up a GitHub Actions workflow to deploy your static website in Azure
+  Storage][azure-staticsite]
 
 ## How we got here
 
