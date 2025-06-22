@@ -8,6 +8,7 @@ re-opened in the remote container you are setup and ready to go. After the
 initial clone sun the following to spin up the project:
 
 ```bash
+npm install
 git submodule update --init --recursive
 cd src
 hugo server -D
@@ -74,3 +75,12 @@ hugo server -D
 [hugo]: https://gohugo.io/getting-started/quick-start/
 [azure-staticsite]:
   https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions
+
+## Todo
+
+- Update [devcontainer.json](.devcontainer/devcontainer.json) to use latest
+  versions
+  - [ ] Update node to version 22
+  - [ ] Update npm to version 11
+  - [ ] Use feature options for hugo
+        <https://github.com/devcontainers/features/blob/e8784d1901fc7ded6d6e74816009100239189dc1/src/hugo/README.md>
