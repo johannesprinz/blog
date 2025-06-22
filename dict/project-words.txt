@@ -8,7 +8,7 @@ chapsas
 christin
 devcontainer
 devskim
-Diataxis
+diataxis
 djlint
 failsafe
 farcic
