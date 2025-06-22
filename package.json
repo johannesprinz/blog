@@ -9,7 +9,7 @@
   },
   "scripts": {
     "\n========== Testing ==========": "",
-    "test": "npm audit || true && npm run audit-spell || true && npm run audit-markdown || true && npm run audit-format || true",
+    "test": "npm audit || true && npm run test-spell || true && npm run test-markdown || true && npm run test-format || true",
     "test-spell": "npm run base-spell -- .",
     "test-markdown": "markdownlint '**/*.md' --ignore node_modules",
     "test-format": "prettier --check --prose-wrap always --print-width 80 --ignore-unknown . ",
