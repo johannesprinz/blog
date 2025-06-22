@@ -12,9 +12,9 @@ categories:
 Below you will find some resources that define my engineering ethos. These are
 categorised into the three main pillars of every change I make.
 
-1.  The Why ( Values, Documentation, Commit messages, Comments )
-2.  The What ( Principles, Documentation, Tests )
-3.  The How ( Process, Architecture, Code, Tools )
+1. The Why ( Values, Documentation, Commit messages, Comments )
+2. The What ( Principles, Documentation, Tests )
+3. The How ( Process, Architecture, Code, Tools )
 
 ### Why
 
