@@ -6,7 +6,9 @@ balaji
 blogumentation
 chapsas
 christin
+devcontainer
 devskim
+diataxis
 djlint
 failsafe
 farcic

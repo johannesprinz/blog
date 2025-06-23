@@ -2,7 +2,7 @@ baseURL = "/" # "https://www.johannesprinz.com/"
 languageCode = "en-us"
 title = "Johannes Prinz"
 theme = "m10c"
-paginate = 10
+pagination.pagerSize = 10
 
 [menu]
   [[menu.main]]

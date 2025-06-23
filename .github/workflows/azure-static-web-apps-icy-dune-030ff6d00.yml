@@ -18,22 +18,30 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      # - name: Setup Hugo
-      #   uses: peaceiris/actions-hugo@v2.4.8
-      #   with:
-      #     hugo-version: "latest"
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3.0.0
+        with:
+          hugo-version: "latest"
 
-      # - name: Build
-      #   run: hugo
-      # # ACTIONS_ALLOW_UNSECURE_COMMANDS see: https://github.blog/changelog/2020-10-01-github-actions-deprecating-set-env-and-add-path-commands/?  
+      - name: Setup Dart Sass
+        run: |
+          curl -LJO https://github.com/sass/dart-sass/releases/download/1.89.2/dart-sass-1.89.2-linux-x64.tar.gz
+          tar -xf dart-sass-1.89.2-linux-x64.tar.gz
+          echo "$PWD/dart-sass" >> $GITHUB_PATH
+
+      - name: Build
+        run: |
+          hugo version
+          sass --version
+          hugo --source=src
       
       - name: Deploy
         id: builddeploy
-        uses: Azure/static-web-apps-deploy@v0.0.1-preview
+        uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_DUNE_030FF6D00 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
@@ -56,7 +64,7 @@ jobs:
     steps:
       - name: Close Pull Request
         id: closepullrequest
-        uses: Azure/static-web-apps-deploy@v0.0.1-preview
+        uses: Azure/static-web-apps-deploy@v1
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ICY_DUNE_030FF6D00 }}
           action: "close"

@@ -2,12 +2,13 @@
 
 ## Getting started
 
-You will need [Docker][docker], [Visual Studio Code][vscode] and use the
-[Remote development container extension][vscode-extension-devcontainer]. Once this has
+You will need [Docker][docker], [Visual Studio Code][vscode] and use the [Remote
+development container extension][vscode-extension-devcontainer]. Once this has
 re-opened in the remote container you are setup and ready to go. After the
 initial clone sun the following to spin up the project:
 
 ```bash
+npm install
 git submodule update --init --recursive
 cd src
 hugo server -D
@@ -28,7 +29,8 @@ in 10 minutes][youtube-howto-hugo] to get this to work.
 ## Guides followed so far
 
 - [Hugo quick start][hugo]
-- [Set up a GitHub Actions workflow to deploy your static website in Azure Storage][azure-staticsite]
+- [Set up a GitHub Actions workflow to deploy your static website in Azure
+  Storage][azure-staticsite]
 
 ## How we got here
 
@@ -73,3 +75,12 @@ hugo server -D
 [hugo]: https://gohugo.io/getting-started/quick-start/
 [azure-staticsite]:
   https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions
+
+## Todo
+
+- Update [devcontainer.json](.devcontainer/devcontainer.json) to use latest
+  versions
+  - [ ] Update node to version 22
+  - [ ] Update npm to version 11
+  - [ ] Use feature options for hugo
+        <https://github.com/devcontainers/features/blob/e8784d1901fc7ded6d6e74816009100239189dc1/src/hugo/README.md>

@@ -12,24 +12,32 @@ categories:
 Below you will find some resources that define my engineering ethos. These are
 categorised into the three main pillars of every change I make.
 
-1.  The Why ( Values, Documentation, Commit messages, Comments )
-2.  The What ( Principles, Documentation, Tests )
-3.  The How ( Process, Architecture, Code, Tools )
+1. The Why ( Values, Documentation, Commit messages, Comments )
+2. The What ( Principles, Documentation, Tests )
+3. The How ( Process, Architecture, Code, Tools )
 
 ### Why
 
 - Documentation
-  - [Diataxis](https://diataxis.fr/) a great giode for starting to document in code
+  - [Diataxis](https://diataxis.fr/) a great guide for starting to document in
+    code
     - [Tutorials](https://diataxis.fr/tutorials/) for learning.
     - [How to guides](https://diataxis.fr/how-to-guides/) for reaching goals.
     - [Explanations](https://diataxis.fr/explanation/) to aid understanding.
     - [Reference](https://diataxis.fr/reference/) for detailed information.
-  - [C4 Model](https://c4model.com/) a great way to declaratively create the core system diagrams
-  - [Arc 42 templates](https://arc42.org/overview) a base structure on how to document a software system, can be as simple as as a single page or complext as you need it to be.
-  - [Kepp a change log](https://keepachangelog.com/en/1.1.0/) track your changes in human readable form.
-  - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) track your changes in detail.
-  - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) track your decisions in human readable form.
-  - [Mermaid Markdown](https://mermaid.js.org/#/) free form declaritive diagramming.
+  - [C4 Model](https://c4model.com/) a great way to declaratively create the
+    core system diagrams
+  - [Arc 42 templates](https://arc42.org/overview) a base structure on how to
+    document a software system, can be as simple as as a single page or complex
+    as you need it to be.
+  - [Keep a change log](https://keepachangelog.com/en/1.1.0/) track your changes
+    in human readable form.
+  - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) track
+    your changes in detail.
+  - [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
+    track your decisions in human readable form.
+  - [Mermaid Markdown](https://mermaid.js.org/#/) free form declarative
+    diagramming.
 
 ### What
 
