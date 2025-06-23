@@ -28,7 +28,7 @@ jobs:
           hugo-version: "latest"
 
       - name: Build
-        run: hugo
+        run: hugo --source=src
       
       - name: Deploy
         id: builddeploy
