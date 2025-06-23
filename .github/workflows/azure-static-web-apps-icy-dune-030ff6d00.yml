@@ -29,8 +29,8 @@ jobs:
 
       - name: Setup Dart Sass
         run: |
-          curl -LJO https://github.com/sass/dart-sass/releases/latest/download/dart-sass-x64-linux.tar.gz
-          tar -xf dart-sass-x64-linux.tar.gz
+          curl -LJO https://github.com/sass/dart-sass/releases/download/1.89.2/dart-sass-1.89.2-linux-x64.tar.gz
+          tar -xf dart-sass-1.89.2-linux-x64.tar.gz
           echo "$PWD/dart-sass" >> $GITHUB_PATH
 
       - name: Build
