@@ -27,8 +27,17 @@ jobs:
         with:
           hugo-version: "latest"
 
+      - name: Setup Dart Sass
+        run: |
+          curl -LJO https://github.com/sass/dart-sass/releases/latest/download/dart-sass-x64-linux.tar.gz
+          tar -xf dart-sass-x64-linux.tar.gz
+          echo "$PWD/dart-sass" >> $GITHUB_PATH
+
       - name: Build
-        run: hugo --source=src
+        run: |
+          hugo version
+          sass --version
+          hugo --source=src
       
       - name: Deploy
         id: builddeploy
