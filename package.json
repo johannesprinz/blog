@@ -4,7 +4,7 @@
   "description": "My thoughts unravelling",
   "devDependencies": {
     "cspell": "^8.14.2",
-    "markdownlint-cli": "^0.41.0",
+    "markdownlint-cli": "^0.46.0",
     "prettier": "^3.3.3"
   },
   "scripts": {
